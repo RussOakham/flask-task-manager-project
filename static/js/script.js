@@ -1,9 +1,6 @@
-// Mobile Sidebar
+// Mobile Sidebar, Accordian, Tooltip
 $(document).ready(function(){
     $('.sidenav').sidenav({edge: "right"});
-});
-
-// Accordian Task View
-$(document).ready(function(){
     $('.collapsible').collapsible();
-  });
+    $('.tooltipped').tooltip();
+});
